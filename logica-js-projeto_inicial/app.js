@@ -14,10 +14,13 @@
 
 alert('Boas vindas ao jogo do número secreto.');
 
-let numeroSecreto = 5;
+let numeroSecreto = 9;
+console.log(numeroSecreto);
 let chute = prompt('Escolha um número entre 1 e 10.');
 
 
 if (numeroSecreto == chute) {
-    console.log('Parabéns, você acertou o número secreto ', numeroSecreto, '!');
+    alert(`Parabéns, você acertou o número secreto ${numeroSecreto} !`);
+} else { 
+    alert('Que pena, você errou o número secreto!');
 }
