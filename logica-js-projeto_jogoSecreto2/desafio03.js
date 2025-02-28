@@ -39,9 +39,9 @@ function calcularFatorial(numero) {
   }
   
   // Exemplo de uso
-  let numero = 5;
-  let resultado = calcularFatorial(numero);
-  console.log(`O fatorial de ${numero} é ${resultado}`);
+  let numero1 = 5;
+  let resultado = calcularFatorial(numero1);
+  console.log(`O fatorial de ${numero1} é ${resultado}`);
 
 // 3 - Crie uma função que converte um valor em dólar, passado como parâmetro, e retorna o valor equivalente em reais. Para isso, considere a cotação do dólar igual a R$4,80.
 
