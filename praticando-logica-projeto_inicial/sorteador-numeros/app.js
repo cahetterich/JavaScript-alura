@@ -2,12 +2,10 @@
 function sortear(){
     // quantidade
     let quantidade = document.getElementById('quantidade').value; 
-
     // de 
-    let de = document.getElementById('de').value;
-
+    let de = parseInt(document.getElementById('de').value);
     // ate
-    let ate = document.getElementById('ate').value; 
+    let ate = parseInt(document.getElementById('ate').value); 
     
     alert(`Quantidade: ${quantidade}`);
     alert(`Do número: ${de}`);
