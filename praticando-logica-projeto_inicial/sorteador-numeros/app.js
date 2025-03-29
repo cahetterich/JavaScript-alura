@@ -1,7 +1,7 @@
 //sorteador
 function sortear(){
     // quantidade
-    let quantidade = document.getElementById('quantidade').value; 
+    let quantidade = parseInt(document.getElementById('quantidade').value); 
     // de 
     let de = parseInt(document.getElementById('de').value);
     // ate
