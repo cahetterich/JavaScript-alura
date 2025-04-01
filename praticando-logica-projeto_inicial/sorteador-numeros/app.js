@@ -11,7 +11,7 @@ function sortear(){
     // alert(`Do número: ${de}`);
     // alert(`Até o número: ${ate}`);
 
-    // let numero = obterNumeroAleatorio(de, ate);
+    // let numero = obterNumeroAleatorio(de, ate);;
     // alert(numero);
 
     let sorteados = [];
