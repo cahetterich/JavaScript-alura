@@ -14,6 +14,11 @@ function sortear(){
     // let numero = obterNumeroAleatorio(de, ate);;
     // alert(numero);
 
+    if (de >= ate) {
+        alert('Campo "Do número" deve ser inferior ao campo "Até o número". Verifique! ');
+        return;
+    }
+
     let sorteados = [];
     let numero;
 
