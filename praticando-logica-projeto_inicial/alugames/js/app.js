@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
 //chamando a função antes de declarar - FUNCTION EXPRESSION
 // palindromo() // hoisting
  
-// function palindromo () {
+// function palindromo () {MMMaMaMamMmM
 //     var palavra = "rever";
 //     var separandoAsLetras = palavra.split(""); // console.log(separandoAsLetras);
 //     var palavraInvertida = separandoAsLetras.reverse();
