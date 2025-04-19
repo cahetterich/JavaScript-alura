@@ -17,6 +17,8 @@
 <body>
   <main class="conteudo-principal">
     <div class="grafismo-azul"></div>
+
+  
     <section class="adicionar-produto">
       <h1 class="titulo">
         Carrinho de <span class="texto-azul">compras</span>
@@ -67,7 +69,30 @@
         Total: <span class="texto-azul" id="valor-total">R$1400</span>
       </p>
     </section>
+
+   <!-- captura de valores do formulário -->
+    <section>
+      <form id="meuForm">
+        <label for="campoNome">Nome:</label>
+        <input type="text" id="campoNome" name="nome">
+        
+        <label for="campoIdade">Idade:</label>
+        <input type="text" id="campoIdade" name="idade">
+    
+        <button type="button" onclick="capturarValores()">Capturar Valores</button>
+      
+      <div id='mostraNome'><span>Seu nome e idade irão aparecer aqui.</span></div>
+    </form>   
+    </section>
+
+    <!-- modificação de código HTML -->
+    <section>
+      <p id="meuParagrafo">Texto original</p>
+      <button onclick="modificarConteudo()">Modificar Conteúdo</button>
+    </section>
+  
   </main>
+
 
   <script src="js/app.js"></script>
 </body>
